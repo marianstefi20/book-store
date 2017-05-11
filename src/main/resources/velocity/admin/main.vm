@@ -1,0 +1,40 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+    <h1>Admin area</h1>
+    <p>Welcome to the admin area. Here you can add, edit, delete books from the database. Feel free to edit anything you want.</p>
+    <hr>
+    <h2>Edit the books</h2>
+    <table class="table">
+    <thead class="thead-inverse">
+        <th>nr</th>
+        <th>title</th>
+        <th>author</th>
+        <th>genre</th>
+        <th>quantity</th>
+        <th>price</th>
+    </thead>
+    <tbody>
+    #foreach($book in $books)
+        <tr>
+            <td>$foreach.count</td>
+            <td>$book.getTitle()</td>
+            <td>$book.getAuthor()</td>
+            <td>$book.getGenre()</td>
+            <td>$book.getNr()</td>
+            <td>$book.getPrice()</td>
+        </tr>
+    #end
+    </tbody>
+    </table>
+    <hr>
+    <h2>Creating .pdf or .csv reports with the unavailable books</h2>
+    <form action="" method="POST">
+        <label for="pdf">PDF:
+            <input type="checkbox" value="1" name="pdf">
+        </label>
+        <label for="csv">CSV:
+            <input type="checkbox" value="1" name="csv">
+        </label>
+        <input type="submit" value="Generate">
+    </form>
+#end

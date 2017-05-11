@@ -1,0 +1,19 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+    <h1>Your shopping cart</h1>
+    <p>Here you can checkout all the orders you have made. You can go back anytime to update the cart</p>
+    #foreach($order in $orders)
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <img style="height:100px;float:left;padding:0 20px 20px 0;" src="http://covers.openlibrary.org/b/isbn/$order[3]-L.jpg">
+                <h1 style="line-height:0;font-weight:bold;">$order[0]</h1> by <b>$order[1]</b>
+                <p>$order[2]</p>
+                <p style="text-align:right;font-weight:bold">$order[4]</p>
+            </div>
+        </div>
+    #end
+    <h1><b>Suma totala: $totalSum </b></h1>
+    <form method="POST" action="">
+        <input type="submit" value="Checkout">
+    </form>
+#end

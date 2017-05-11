@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Books>
+    <Book id="1">
+        <genre>thriller</genre>
+        <title>Moby Dick</title>
+        <author>Herman Melville</author>
+        <nr>115</nr>
+        <price>23.99</price>
+        <isbn>9789583001215</isbn>
+        <description>A book about the thrilling stories of the old ones and how they managed to take by surprise an entire generation.</description>
+    </Book>
+    <Book id="2">
+        <genre>fantasy</genre>
+        <title>A Christmas Carol</title>
+        <author>Charles Dickens</author>
+        <nr>19</nr>
+        <price>30.0</price>
+        <isbn>9780141324524</isbn>
+        <description>A legendary story about the far-away land of Middle Earth and how a GON managed to beat Sauron at wrestling.</description>
+    </Book>
+    <Book id="3">
+        <genre>romance</genre>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <nr>22</nr>
+        <price>13.99</price>
+        <isbn>9781936594290</isbn>
+        <description>A great book about a girls who falls in love with a rich man that is cool also...</description>
+    </Book>
+    <Book id="4">
+        <genre>fantasy</genre>
+        <title>The Fellowship of The Ring</title>
+        <author>J. R. R. Tolkien</author>
+        <nr>1</nr>
+        <price>40.2</price>
+        <isbn>0007171978</isbn>
+        <description>The best book...ever</description>
+    </Book>
+    <Book id="5">
+        <genre>magic</genre>
+        <title>Harry Potter</title>
+        <author>J. K. Rowling</author>
+        <nr>9</nr>
+        <price>23.0</price>
+        <isbn>0747532699</isbn>
+        <description>A book almost as good as LOTR</description>
+    </Book>
+    <Book id="6">
+        <genre>war</genre>
+        <title>War and Peace</title>
+        <author>Leo Tolstoy</author>
+        <nr>53</nr>
+        <price>34.40</price>
+        <isbn>9780060798871</isbn>
+        <description>Some raging battles in a raging world.</description>
+    </Book>
+    <Book id="7">
+        <genre>lost</genre>
+        <title>Don Quixote</title>
+        <author>Miguel Cervantes</author>
+        <nr>0</nr>
+        <price>10.99</price>
+        <isbn>9789626345221</isbn>
+        <description>A gut who is lost on an island.</description>
+    </Book>
+    <Book id="8">
+        <genre>gothic</genre>
+        <title>Ulysses</title>
+        <author>James Joice</author>
+        <nr>0</nr>
+        <price>21.0</price>
+        <isbn>9780394703800</isbn>
+        <description>Some guy which can fight...</description>
+    </Book>
+    <Book id="9">
+        <genre>drama</genre>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <nr>64</nr>
+        <price>32.0</price>
+        <isbn>9780743273565</isbn>
+        <description>A great guy in a great day.</description>
+    </Book>
+    <Book id="10">
+        <genre>drama</genre>
+        <title>One Hundred Years of Solitude</title>
+        <author>Gabriel Garcia Marquez</author>
+        <nr>22</nr>
+        <price>12.99</price>
+        <isbn>9780060531041</isbn>
+        <description>Simply a sad story where nobody say anythind until page 10.</description>
+    </Book>
+    <Book id="11">
+        <genre>Drama</genre>
+        <title>The adventures of Huckleberry Finn</title>
+        <author>Mark Twain</author>
+        <nr>43</nr>
+        <price>28.0</price>
+        <isbn>9781591940296</isbn>
+        <description>The smart orphan classic that changed the world.</description>
+    </Book>
+    <Book id="12">
+        <genre>science-fiction</genre>
+        <title>Alice In Wonderland</title>
+        <author>Lewis Carrol</author>
+        <nr>34</nr>
+        <price>32.99</price>
+        <isbn>9780439291491</isbn>
+        <description>Get the book that destroyed generations...now in full description.</description>
+    </Book>
+</Books>
